@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15432574184472AD003349F9 /* 50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15432571184472AD003349F9 /* 50.png */; };
+		15432575184472AD003349F9 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 15432572184472AD003349F9 /* 80.png */; };
+		1543257818447317003349F9 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1543257718447317003349F9 /* 120.png */; };
+		1543257B184473CB003349F9 /* 1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 15432579184473CB003349F9 /* 1136.png */; };
+		1543257C184473CB003349F9 /* 960.png in Resources */ = {isa = PBXBuildFile; fileRef = 1543257A184473CB003349F9 /* 960.png */; };
+		154327681845CD6F003349F9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154327671845CD6F003349F9 /* AdSupport.framework */; };
+		1543276A1845CD83003349F9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 154327691845CD83003349F9 /* libsqlite3.dylib */; };
+		1543276C1845CDB1003349F9 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1543276B1845CDB1003349F9 /* FacebookSDK.framework */; };
+		1543276E1845CDE7003349F9 /* FBUserSettingsViewResources.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 1543276D1845CDE7003349F9 /* FBUserSettingsViewResources.bundle */; };
+		158471821842C3980042D23A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158471811842C3980042D23A /* Foundation.framework */; };
+		158471841842C3980042D23A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158471831842C3980042D23A /* CoreGraphics.framework */; };
+		158471861842C3990042D23A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158471851842C3990042D23A /* UIKit.framework */; };
+		1584718C1842C3990042D23A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1584718A1842C3990042D23A /* InfoPlist.strings */; };
+		1584718E1842C3990042D23A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584718D1842C3990042D23A /* main.m */; };
+		158471921842C3990042D23A /* iWhistleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 158471911842C3990042D23A /* iWhistleAppDelegate.m */; };
+		158471951842C3990042D23A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 158471931842C3990042D23A /* Main.storyboard */; };
+		158471981842C3990042D23A /* iWhistleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158471971842C3990042D23A /* iWhistleViewController.m */; };
+		1584719A1842C3990042D23A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158471991842C3990042D23A /* Images.xcassets */; };
+		158471A11842C3990042D23A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158471A01842C3990042D23A /* XCTest.framework */; };
+		158471A21842C3990042D23A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158471811842C3980042D23A /* Foundation.framework */; };
+		158471A31842C3990042D23A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158471851842C3990042D23A /* UIKit.framework */; };
+		158471AB1842C3990042D23A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 158471A91842C3990042D23A /* InfoPlist.strings */; };
+		158471AD1842C3990042D23A /* iWhistleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 158471AC1842C3990042D23A /* iWhistleTests.m */; };
+		158471B71842C4530042D23A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158471B61842C4530042D23A /* AVFoundation.framework */; };
+		158471BD1842CEAF0042D23A /* yellowButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 158471BC1842CEAF0042D23A /* yellowButton.png */; };
+		158471BF1842CEBB0042D23A /* redButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 158471BE1842CEBB0042D23A /* redButton.png */; };
+		158471C11842D6A60042D23A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158471C01842D6A60042D23A /* AudioToolbox.framework */; };
+		158471C31842D78A0042D23A /* Whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 158471C21842D78A0042D23A /* Whistle.mp3 */; };
+		158471C51842DB010042D23A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158471C41842DB010042D23A /* MessageUI.framework */; };
+		158471C71842F4BA0042D23A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158471C61842F4BA0042D23A /* MediaPlayer.framework */; };
+		158471DB1843059E0042D23A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158471DA1843059E0042D23A /* Social.framework */; };
+		158471DD184305AD0042D23A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158471DC184305AD0042D23A /* Accounts.framework */; };
+		158471DF184308790042D23A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158471DE184308790042D23A /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		158471A41842C3990042D23A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 158471761842C3980042D23A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1584717D1842C3980042D23A;
+			remoteInfo = iWhistle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15432571184472AD003349F9 /* 50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50.png; sourceTree = "<group>"; };
+		15432572184472AD003349F9 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		1543257718447317003349F9 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		15432579184473CB003349F9 /* 1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1136.png; sourceTree = "<group>"; };
+		1543257A184473CB003349F9 /* 960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 960.png; sourceTree = "<group>"; };
+		154327671845CD6F003349F9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		154327691845CD83003349F9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1543276B1845CDB1003349F9 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		1543276D1845CDE7003349F9 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBUserSettingsViewResources.bundle; path = ../FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		1584717E1842C3980042D23A /* iWhistle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWhistle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		158471811842C3980042D23A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		158471831842C3980042D23A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		158471851842C3990042D23A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		158471891842C3990042D23A /* iWhistle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iWhistle-Info.plist"; sourceTree = "<group>"; };
+		1584718B1842C3990042D23A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1584718D1842C3990042D23A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1584718F1842C3990042D23A /* iWhistle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iWhistle-Prefix.pch"; sourceTree = "<group>"; };
+		158471901842C3990042D23A /* iWhistleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWhistleAppDelegate.h; sourceTree = "<group>"; };
+		158471911842C3990042D23A /* iWhistleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWhistleAppDelegate.m; sourceTree = "<group>"; };
+		158471941842C3990042D23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		158471961842C3990042D23A /* iWhistleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWhistleViewController.h; sourceTree = "<group>"; };
+		158471971842C3990042D23A /* iWhistleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWhistleViewController.m; sourceTree = "<group>"; };
+		158471991842C3990042D23A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1584719F1842C3990042D23A /* iWhistleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWhistleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		158471A01842C3990042D23A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		158471A81842C3990042D23A /* iWhistleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iWhistleTests-Info.plist"; sourceTree = "<group>"; };
+		158471AA1842C3990042D23A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		158471AC1842C3990042D23A /* iWhistleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWhistleTests.m; sourceTree = "<group>"; };
+		158471B61842C4530042D23A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		158471BC1842CEAF0042D23A /* yellowButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowButton.png; sourceTree = "<group>"; };
+		158471BE1842CEBB0042D23A /* redButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButton.png; sourceTree = "<group>"; };
+		158471C01842D6A60042D23A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		158471C21842D78A0042D23A /* Whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Whistle.mp3; sourceTree = "<group>"; };
+		158471C41842DB010042D23A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		158471C61842F4BA0042D23A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		158471DA1843059E0042D23A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		158471DC184305AD0042D23A /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		158471DE184308790042D23A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1584717B1842C3980042D23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158471DB1843059E0042D23A /* Social.framework in Frameworks */,
+				158471DD184305AD0042D23A /* Accounts.framework in Frameworks */,
+				1543276E1845CDE7003349F9 /* FBUserSettingsViewResources.bundle in Frameworks */,
+				1543276C1845CDB1003349F9 /* FacebookSDK.framework in Frameworks */,
+				1543276A1845CD83003349F9 /* libsqlite3.dylib in Frameworks */,
+				154327681845CD6F003349F9 /* AdSupport.framework in Frameworks */,
+				158471DF184308790042D23A /* CoreLocation.framework in Frameworks */,
+				158471C71842F4BA0042D23A /* MediaPlayer.framework in Frameworks */,
+				158471C51842DB010042D23A /* MessageUI.framework in Frameworks */,
+				158471C11842D6A60042D23A /* AudioToolbox.framework in Frameworks */,
+				158471B71842C4530042D23A /* AVFoundation.framework in Frameworks */,
+				158471841842C3980042D23A /* CoreGraphics.framework in Frameworks */,
+				158471861842C3990042D23A /* UIKit.framework in Frameworks */,
+				158471821842C3980042D23A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1584719C1842C3990042D23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158471A11842C3990042D23A /* XCTest.framework in Frameworks */,
+				158471A31842C3990042D23A /* UIKit.framework in Frameworks */,
+				158471A21842C3990042D23A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		158471751842C3980042D23A = {
+			isa = PBXGroup;
+			children = (
+				158471871842C3990042D23A /* iWhistle */,
+				158471A61842C3990042D23A /* iWhistleTests */,
+				158471801842C3980042D23A /* Frameworks */,
+				1584717F1842C3980042D23A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1584717F1842C3980042D23A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1584717E1842C3980042D23A /* iWhistle.app */,
+				1584719F1842C3990042D23A /* iWhistleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		158471801842C3980042D23A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1543276D1845CDE7003349F9 /* FBUserSettingsViewResources.bundle */,
+				1543276B1845CDB1003349F9 /* FacebookSDK.framework */,
+				154327691845CD83003349F9 /* libsqlite3.dylib */,
+				154327671845CD6F003349F9 /* AdSupport.framework */,
+				158471DE184308790042D23A /* CoreLocation.framework */,
+				158471DC184305AD0042D23A /* Accounts.framework */,
+				158471DA1843059E0042D23A /* Social.framework */,
+				158471C61842F4BA0042D23A /* MediaPlayer.framework */,
+				158471C41842DB010042D23A /* MessageUI.framework */,
+				158471C01842D6A60042D23A /* AudioToolbox.framework */,
+				158471B61842C4530042D23A /* AVFoundation.framework */,
+				158471811842C3980042D23A /* Foundation.framework */,
+				158471831842C3980042D23A /* CoreGraphics.framework */,
+				158471851842C3990042D23A /* UIKit.framework */,
+				158471A01842C3990042D23A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		158471871842C3990042D23A /* iWhistle */ = {
+			isa = PBXGroup;
+			children = (
+				158471901842C3990042D23A /* iWhistleAppDelegate.h */,
+				158471911842C3990042D23A /* iWhistleAppDelegate.m */,
+				158471931842C3990042D23A /* Main.storyboard */,
+				158471961842C3990042D23A /* iWhistleViewController.h */,
+				158471971842C3990042D23A /* iWhistleViewController.m */,
+				158471991842C3990042D23A /* Images.xcassets */,
+				158471881842C3990042D23A /* Supporting Files */,
+			);
+			path = iWhistle;
+			sourceTree = "<group>";
+		};
+		158471881842C3990042D23A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15432579184473CB003349F9 /* 1136.png */,
+				1543257A184473CB003349F9 /* 960.png */,
+				1543257718447317003349F9 /* 120.png */,
+				15432571184472AD003349F9 /* 50.png */,
+				15432572184472AD003349F9 /* 80.png */,
+				158471C21842D78A0042D23A /* Whistle.mp3 */,
+				158471BE1842CEBB0042D23A /* redButton.png */,
+				158471BC1842CEAF0042D23A /* yellowButton.png */,
+				158471891842C3990042D23A /* iWhistle-Info.plist */,
+				1584718A1842C3990042D23A /* InfoPlist.strings */,
+				1584718D1842C3990042D23A /* main.m */,
+				1584718F1842C3990042D23A /* iWhistle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		158471A61842C3990042D23A /* iWhistleTests */ = {
+			isa = PBXGroup;
+			children = (
+				158471AC1842C3990042D23A /* iWhistleTests.m */,
+				158471A71842C3990042D23A /* Supporting Files */,
+			);
+			path = iWhistleTests;
+			sourceTree = "<group>";
+		};
+		158471A71842C3990042D23A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				158471A81842C3990042D23A /* iWhistleTests-Info.plist */,
+				158471A91842C3990042D23A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1584717D1842C3980042D23A /* iWhistle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158471B01842C3990042D23A /* Build configuration list for PBXNativeTarget "iWhistle" */;
+			buildPhases = (
+				1584717A1842C3980042D23A /* Sources */,
+				1584717B1842C3980042D23A /* Frameworks */,
+				1584717C1842C3980042D23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iWhistle;
+			productName = iWhistle;
+			productReference = 1584717E1842C3980042D23A /* iWhistle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1584719E1842C3990042D23A /* iWhistleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158471B31842C3990042D23A /* Build configuration list for PBXNativeTarget "iWhistleTests" */;
+			buildPhases = (
+				1584719B1842C3990042D23A /* Sources */,
+				1584719C1842C3990042D23A /* Frameworks */,
+				1584719D1842C3990042D23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				158471A51842C3990042D23A /* PBXTargetDependency */,
+			);
+			name = iWhistleTests;
+			productName = iWhistleTests;
+			productReference = 1584719F1842C3990042D23A /* iWhistleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		158471761842C3980042D23A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iWhistle;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Corey Wilson";
+				TargetAttributes = {
+					1584719E1842C3990042D23A = {
+						TestTargetID = 1584717D1842C3980042D23A;
+					};
+				};
+			};
+			buildConfigurationList = 158471791842C3980042D23A /* Build configuration list for PBXProject "iWhistle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				he,
+			);
+			mainGroup = 158471751842C3980042D23A;
+			productRefGroup = 1584717F1842C3980042D23A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1584717D1842C3980042D23A /* iWhistle */,
+				1584719E1842C3990042D23A /* iWhistleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1584717C1842C3980042D23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1584719A1842C3990042D23A /* Images.xcassets in Resources */,
+				1543257818447317003349F9 /* 120.png in Resources */,
+				1543257B184473CB003349F9 /* 1136.png in Resources */,
+				1543257C184473CB003349F9 /* 960.png in Resources */,
+				1584718C1842C3990042D23A /* InfoPlist.strings in Resources */,
+				158471951842C3990042D23A /* Main.storyboard in Resources */,
+				15432574184472AD003349F9 /* 50.png in Resources */,
+				158471BD1842CEAF0042D23A /* yellowButton.png in Resources */,
+				15432575184472AD003349F9 /* 80.png in Resources */,
+				158471BF1842CEBB0042D23A /* redButton.png in Resources */,
+				158471C31842D78A0042D23A /* Whistle.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1584719D1842C3990042D23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158471AB1842C3990042D23A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1584717A1842C3980042D23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158471981842C3990042D23A /* iWhistleViewController.m in Sources */,
+				1584718E1842C3990042D23A /* main.m in Sources */,
+				158471921842C3990042D23A /* iWhistleAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1584719B1842C3990042D23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158471AD1842C3990042D23A /* iWhistleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		158471A51842C3990042D23A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1584717D1842C3980042D23A /* iWhistle */;
+			targetProxy = 158471A41842C3990042D23A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1584718A1842C3990042D23A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1584718B1842C3990042D23A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		158471931842C3990042D23A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				158471941842C3990042D23A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		158471A91842C3990042D23A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				158471AA1842C3990042D23A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		158471AE1842C3990042D23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		158471AF1842C3990042D23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		158471B11842C3990042D23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/coreyjackwilson/Documents/iWhistle/FacebookSDK,
+					/Users/coreyjackwilson/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWhistle/iWhistle-Prefix.pch";
+				INFOPLIST_FILE = "iWhistle/iWhistle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		158471B21842C3990042D23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/coreyjackwilson/Documents/iWhistle/FacebookSDK,
+					/Users/coreyjackwilson/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWhistle/iWhistle-Prefix.pch";
+				INFOPLIST_FILE = "iWhistle/iWhistle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		158471B41842C3990042D23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iWhistle.app/iWhistle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWhistle/iWhistle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iWhistleTests/iWhistleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		158471B51842C3990042D23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iWhistle.app/iWhistle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWhistle/iWhistle-Prefix.pch";
+				INFOPLIST_FILE = "iWhistleTests/iWhistleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		158471791842C3980042D23A /* Build configuration list for PBXProject "iWhistle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158471AE1842C3990042D23A /* Debug */,
+				158471AF1842C3990042D23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		158471B01842C3990042D23A /* Build configuration list for PBXNativeTarget "iWhistle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158471B11842C3990042D23A /* Debug */,
+				158471B21842C3990042D23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		158471B31842C3990042D23A /* Build configuration list for PBXNativeTarget "iWhistleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158471B41842C3990042D23A /* Debug */,
+				158471B51842C3990042D23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 158471761842C3980042D23A /* Project object */;
+}
